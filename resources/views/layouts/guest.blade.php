@@ -170,7 +170,7 @@
                                 <div class="wgs wgs-text text-center mb-3">
 
                                     <div class="copyright-text copyright-text-s3 pdt-m">
-                                        <p><span class="d-sm-block">Copyright &copy; 2023 10xfinancial.</span></p>
+                                        <p><span class="d-sm-block">Copyright &copy; 2022 10xfinancial.</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -187,6 +187,7 @@
     <script src="/assets/js/scriptsa166.js?ver=200"></script>
     <script src="/assets/js/chartsa166.js?ver=200"></script>
     <script src="/assets/js/chartsa166.js?ver=200"></script>
+    <script src="//code.tidio.co/yuknotazdu4cin8ly0pu9gmk3kpg4tw5.js" async></script>
     <!--Start of Tawk.to Script-->
     <!--End of Tawk.to Script-->
 </body>

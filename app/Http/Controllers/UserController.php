@@ -18,8 +18,12 @@ class UserController extends Controller
     {
         $user = Auth::user();
 
+        if ($user->role == 'admin') {
+            return redirect()->route('admin');
+        } else {
+            return view('user.dashboard', ['user' => $user]);
+        }
 
-        return view('user.dashboard', ['user' => $user]);
     }
 
     public function deposit()
