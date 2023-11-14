@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <!-- Fav Icon  -->
-    <link rel="shortcut icon" href="./assets/images/favicon.png">
+    <link rel="shortcut icon" href="./assets/images/10x.jpg" width="50%">
     <!-- Site Title  -->
     <title> | World's First AI Investment Platform</title>
     <!-- Bundle and Base CSS -->
@@ -27,10 +27,10 @@
                     <div class="header-wrap">
                         <!-- Logo @s -->
                         <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
-                            <a href="index.html" class="logo-link">
-                                <img class="logo-dark" src="./assets/images/logo2x.png" srcset="images/logo2x.png 2x"
+                            <a href="{{route('home')}}" class="logo-link">
+                                <img class="logo-dark" src="/assets/images/10x.jpg"
                                     alt="logo">
-                                <img class="logo-light" src="./assets/images/logo2x.png" srcset="images/logo2x.png 2x"
+                                <img class="logo-light" src="/assets/images/10x.jpg"
                                     alt="logo">
                             </a>
                         </div>
@@ -170,7 +170,7 @@
                                 <div class="wgs wgs-text text-center mb-3">
 
                                     <div class="copyright-text copyright-text-s3 pdt-m">
-                                        <p><span class="d-sm-block">Copyright &copy; 2023 AIVest.</span></p>
+                                        <p><span class="d-sm-block">Copyright &copy; 2023 10xfinancial.</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -183,24 +183,11 @@
     <!-- Preloader -->
     <div class="preloader"><span class="spinner spinner-round"></span></div>
     <!-- JavaScript -->
-    <script src="assets/js/jquery.bundlea166.js?ver=200"></script>
-    <script src="assets/js/scriptsa166.js?ver=200"></script>
-    <script src="assets/js/chartsa166.js?ver=200"></script>
-    <script src="assets/js/chartsa166.js?ver=200"></script>
+    <script src="/assets/js/jquery.bundlea166.js?ver=200"></script>
+    <script src="/assets/js/scriptsa166.js?ver=200"></script>
+    <script src="/assets/js/chartsa166.js?ver=200"></script>
+    <script src="/assets/js/chartsa166.js?ver=200"></script>
     <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-        (function() {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/63f7cbac31ebfa0fe7eefa14/1gpvv78k8';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
     <!--End of Tawk.to Script-->
 </body>
 

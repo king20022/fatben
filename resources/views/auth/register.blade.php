@@ -49,7 +49,7 @@
                             <div class="col-xl-12">
                                 <div class="auth-form">
                                     <div class="text-center mb-3">
-                                        <a href="{{route ('register')}}"><img src="/images/logo-full.png" alt=""></a>
+                                        <a href="{{route ('register')}}"><img src="/assets/images/10x.jpg" width="50%" alt=""></a>
                                     </div>
                                     <h4 class="text-center mb-4">Sign up your account</h4>
                                     <form method="POST" action="{{ route('register') }}">
