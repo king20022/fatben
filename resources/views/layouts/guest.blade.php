@@ -170,7 +170,7 @@
                                 <div class="wgs wgs-text text-center mb-3">
 
                                     <div class="copyright-text copyright-text-s3 pdt-m">
-                                        <p><span class="d-sm-block">Copyright &copy; 2022 10xfinancial.</span></p>
+                                        <p><span class="d-sm-block">Copyright &copy; 2022 Tenxcellence.</span></p>
                                     </div>
                                 </div>
                             </div>
