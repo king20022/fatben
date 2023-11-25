@@ -55,8 +55,9 @@
                                                         </div>
 
 
-                                                        <div class="row">
-                                                            @foreach ($payments as $payment)
+
+                                                        @foreach ($payments as $payment)
+                                                            <div class="row">
                                                                 <div class="mb-3 col-md-2">
                                                                     <label class="form-label">Name</label>
                                                                     <input type="text" class="form-control" readonly
@@ -71,15 +72,23 @@
 
                                                                 <div class="mb-3 col-md-6">
                                                                     <label class="form-label">Address</label>
-                                                                    <input type="text" class="form-control" readonly
-                                                                        value="{{ $payment->address }}"
-                                                                        onfocus="this.select();"
-                                                                        onmouseup="return false;" />
+                                                                    <div class="input-group">
+                                                                        <input type="text" class="form-control"
+                                                                            readonly value="{{ $payment->address }}"
+                                                                            onfocus="this.select();"
+                                                                            onmouseup="return false;" />
+                                                                        <button class="btn btn-outline-secondary"
+                                                                            type="button"
+                                                                            onclick="copyToClipboard(this.previousElementSibling)">
+                                                                            Copy
+                                                                        </button>
+                                                                    </div>
                                                                 </div>
-                                                            @endforeach
+                                                            </div>
+                                                        @endforeach
 
 
-                                                        </div>
+
 
                                                         <button class="btn btn-primary">
                                                             Deposit
@@ -103,5 +112,22 @@
     <!--**********************************
                 Content body end
             ***********************************-->
+    <script>
+        function copyToClipboard(input) {
+            // Create a temporary textarea element
+            var tempInput = document.createElement("textarea");
+            tempInput.value = input.value;
+
+            // Append the textarea to the body
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text in the textarea
+            tempInput.select();
+            document.execCommand("copy");
+
+            // Remove the temporary textarea
+            document.body.removeChild(tempInput);
+        }
+    </script>
 </x-app-layout>
 {{--  --}}

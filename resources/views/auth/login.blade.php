@@ -3,12 +3,11 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 
-<!-- Mirrored from eres.dexignzone.com/xhtml/page-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Oct 2023 07:53:26 GMT -->
 
 <head>
 
     <!-- Title -->
-    <title>Hospital Admin Dashboard </title>
+    <title>Login</title>
 
     <!-- Meta -->
     <meta charset="utf-8">

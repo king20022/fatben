@@ -42,13 +42,15 @@
                             <div class="nk-block-text">
                                 <h4 class="title title-lg animated" data-animate="fadeInUp" data-delay=".2">What is
                                     Tenxcellence?</h4>
-                                <p class="lead animated" data-animate="fadeInUp" data-delay=".3">Tenxcellence is the World’s
+                                <p class="lead animated" data-animate="fadeInUp" data-delay=".3">Tenxcellence is the
+                                    World’s
                                     first AI investment platform offering real estates, Airbnb and yield farming
                                     opportunities. Our Artificial Intelligence (AI) analysis are up to 96% accurate as
                                     an investment powered AI joint with smart support of our experts we thrive to be
                                     99.9% at-most.</p>
                                 <p class="animated" data-animate="fadeInUp" data-delay=".4">We tag it the Real world
-                                    because we’ve built this system to fulfill investors long term desires/goals. Tenxcellence
+                                    because we’ve built this system to fulfill investors long term desires/goals.
+                                    Tenxcellence
                                     is here to give hope to different investment sectors, please do well to also read
                                     our FAQs.</p>
 
@@ -90,10 +92,12 @@
                                     <div class="stage-info animated" data-animate="fadeInUp" data-delay=".4">
                                         <img src="./assets/images/estate.jpg" alt="gfx">
                                         <h6 class="title title-s6 title-xs-s2">Real Estates:</h6>
-                                        <p>Tenxcellence has over 5 million premium real estate networks where distress sales
+                                        <p>Tenxcellence has over 5 million premium real estate networks where distress
+                                            sales
                                             are updated daily, example: An asset worth $1,100,000 can be sold at
                                             $300,000 to our brokers then our AI will analyze and list the cheapest
-                                            valuable assets for Tenxcellence investors to buy and earn potential $800,000
+                                            valuable assets for Tenxcellence investors to buy and earn potential
+                                            $800,000
                                             profit. It differs, based on daily distress updates.</p>
                                     </div>
                                 </div><!-- .col  -->
@@ -103,7 +107,8 @@
                                         <h6 class="title title-s6 title-xs-s2">Airbnb:</h6>
                                         <p>Our AI makes adequate research on short-term rental that has a steady queue
                                             of occupants because it’s more profitable than leasing the same property to
-                                            someone on a long-term basis. According to a recent analysis, Tenxcellence Airbnb
+                                            someone on a long-term basis. According to a recent analysis, Tenxcellence
+                                            Airbnb
                                             investors have an average monthly income of $4600 or more, depending on your
                                             investment size and rewards.</p>
                                     </div>
@@ -126,7 +131,7 @@
                                 </div>
                                 <div class="token-action">
                                     <a class="btn btn-md btn-round btn-grad btn-grad-alternet"
-                                        href="{{route('register')}}">Sign Up</a>
+                                        href="{{ route('register') }}">Sign Up</a>
                                 </div>
 
                             </div>
@@ -161,7 +166,8 @@
                                     <div class="accordion accordion-s1 accordion-faq" id="faq-67">
                                         <div class="accordion-item accordion-item-s4 bg-light">
                                             <h5 class="accordion-title" data-bs-toggle="collapse"
-                                                data-bs-target="#faq-67-1"> What Currency Can I Fund My Tenxcellence Account
+                                                data-bs-target="#faq-67-1"> What Currency Can I Fund My Tenxcellence
+                                                Account
                                                 With? <span class="accordion-icon accordion-icon-s2"></span>
                                             </h5>
                                             <div id="faq-67-1" class="collapse show" data-bs-parent="#faq-67">
@@ -431,6 +437,64 @@
             </div>
         </section>
         <!-- // -->
+        {{-- <div class="content-body">
+            <div class="container-fluid">
+                <div class="col-xl-12">
+                    <div class="card dz-card" id="slides-only-1">
+                        <div class="card-header flex-wrap border-0">
+                            <h4 class="card-intro-title mb-0">Slides Only</h4>
+                        </div>
+                        <div class="tab-content" id="myTabContent-2">
+                            <div class="tab-pane fade show active" id="SlidesOnly2" role="tabpanel"
+                                aria-labelledby="home-tab">
+                                <div class="card-body pt-0 p-4">
+                                    <div class="bootstrap-carousel">
+                                        <div class="carousel slide" data-bs-ride="carousel" style="height: 300px; width:50%;">
+                                            <!-- Adjust the height above as per your preference -->
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="images/big/img3.jpg"
+                                                        alt="First slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images/big/img4.jpg"
+                                                        alt="Second slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images/big/img5.jpg"
+                                                        alt="Third slide">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="SlidesOnly2-html" role="tabpanel"
+                                aria-labelledby="home-tab">
+                                <div class="card-body p-0 code-area">
+                                    <pre class="m-0"> <code class="language-html">&lt;div class="bootstrap-carousel"&gt;
+        &lt;div class="carousel slide" data-bs-ride="carousel" style="height: 300px;"&gt; <!-- Adjust the height above as per your preference -->
+        &lt;div class="carousel-inner"&gt;
+        &lt;div class="carousel-item active"&gt;
+        &lt;img class="d-block w-100" src="./images/big/img3.jpg" alt="First slide"&gt;
+        &lt;/div&gt;
+        &lt;div class="carousel-item"&gt;
+        &lt;img class="d-block w-100" src="./images/big/img4.jpg" alt="Second slide"&gt;
+        &lt;/div&gt;
+        &lt;div class="carousel-item"&gt;
+        &lt;img class="d-block w-100" src="./images/big/img5.jpg" alt="Third slide"&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+
         <section class="section section-contact bg-white" id="contact">
             <div class="container">
                 <div class="section-head text-center wide-auto-sm">

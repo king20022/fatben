@@ -8,7 +8,7 @@
 <head>
 
     <!-- Title -->
-    <title>Hospital Admin Dashboard </title>
+    <title>Register</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
