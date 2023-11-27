@@ -27,11 +27,9 @@
                     <div class="header-wrap">
                         <!-- Logo @s -->
                         <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
-                            <a href="{{route('home')}}" class="logo-link">
-                                <img class="logo-dark" src="/assets/images/10x.jpg"
-                                    alt="logo">
-                                <img class="logo-light" src="/assets/images/10x.jpg"
-                                    alt="logo">
+                            <a href="{{ route('home') }}" class="logo-link">
+                                <img class="logo-dark" src="/assets/images/10x.jpg" alt="logo">
+                                <img class="logo-light" src="/assets/images/10x.jpg" alt="logo">
                             </a>
                         </div>
                         <!-- Menu Toogle @s -->
@@ -53,9 +51,9 @@
                                     <li class="menu-item"><a class="menu-link nav-link" href="#contact">Contact</a></li>
                                 </ul>
                                 <ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
-                                    <li><a href="{{route ('register')}}"><span>Sign Up</span></a></li>
-                                    <li><a href="{{route('login')}}" data-bs-toggle="modal"
-                                            data-bs-target="{{route('login')}}"><span>Sign In</span></a></li>
+                                    <li><a href="{{ route('register') }}"><span>Sign Up</span></a></li>
+                                    <li><a href="{{ route('login') }}" data-bs-toggle="modal"
+                                            data-bs-target="{{ route('login') }}"><span>Sign In</span></a></li>
                                 </ul>
                             </nav>
                         </div><!-- .header-navbar @e -->
@@ -83,9 +81,9 @@
                                             </div>
                                             <div class="cpn-btns">
                                                 <ul class="btn-grp animated" data-animate="fadeInUp" data-delay="1.45">
-                                                    <li><a href="{{route ('register')}}"
+                                                    <li><a href="{{ route('register') }}"
                                                             class="btn btn-md btn-grad btn-round">Register</a></li>
-                                                    <li><a href="{{route ('login')}}"
+                                                    <li><a href="{{ route('login') }}"
                                                             class="btn btn-md btn-grad btn-grad-alternet btn-round">Login</a>
                                                     </li>
                                                 </ul>
@@ -170,7 +168,7 @@
                                 <div class="wgs wgs-text text-center mb-3">
 
                                     <div class="copyright-text copyright-text-s3 pdt-m">
-                                        <p><span class="d-sm-block">Copyright &copy; 2022 Tenxcellence.</span></p>
+                                        <p><span class="d-sm-block">Copyright &copy; 2022 10xfinancial.</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -188,7 +186,230 @@
     <script src="/assets/js/chartsa166.js?ver=200"></script>
     <script src="/assets/js/chartsa166.js?ver=200"></script>
     <script src="//code.tidio.co/hrlkhx7wwvyqle23tqvkzdu4bhtisjga.js" async></script>
-   
+    <div class="mgm " style="display: none">
+        <div class="txt" style="color:  rgb(175, 177, 229)>
+            Someone from <b></b> just traded with
+            <a href="javascript:void(0);" onclick="javascript:void(0);"></a>
+        </div>
+    </div>
+
+    <style>
+        .mgm {
+            border-radius: 7px;
+            position: fixed;
+            z-index: 150;
+            bottom: 420px;
+            right: 50px;
+            background: #fff;
+            padding: 10px 27px;
+            box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.3);
+        }
+
+        .mgm a {
+            font-weight: 700;
+            display: block;
+            color: rgb(175, 177, 229);
+        }
+
+        .mgm a,
+        .mgm a:active {
+            transition: all 0.2s ease;
+            color: rgb(175, 177, 229);
+        }
+    </style>
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
+    <script type="text/javascript">
+        var listCountries = [
+            "Brazil",
+            "USA",
+            "Germany",
+            "France",
+            "Italy",
+            "United Kingdom",
+            "Australia",
+            "Iraq",
+            "Canada",
+            "Argentina",
+            "Saudi Arabia",
+            "Mexico",
+            "USA",
+            "South Africa",
+            "Venezuela",
+            "United Kingdom",
+            "Sweden",
+            "Brazil",
+            "Germany",
+            "Italy",
+            "South Africa",
+            "United Kingdom",
+            "South Africa",
+            "Greece",
+            "Cuba",
+            "South Africa",
+            "Portugal",
+            "Austria",
+            "Brazil",
+            "Panama",
+            "Dubai",
+            "USA",
+            "Netherlands",
+            "Switzerland",
+            "Belgium",
+            "Israel",
+            "Cyprus",
+        ];
+        var listPlans = [
+            "$500",
+            "$1500",
+            "$1000",
+            "$10,000",
+            "$2000",
+            "$3000",
+            "$4000",
+            "$600",
+            "$700",
+            "$2500",
+        ];
+        interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+        var run = setInterval(request, interval);
+
+        function request() {
+            clearInterval(run);
+            interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+            var country =
+                listCountries[Math.floor(Math.random() * listCountries.length)];
+            var plan = listPlans[Math.floor(Math.random() * listPlans.length)];
+            var msg =
+                "Someone from <b>" +
+                country +
+                '</b> just traded with <a href="javascript:void(0);" onclick="javascript:void(0);">' +
+                plan +
+                " .</a>";
+            $(".mgm .txt").html(msg);
+            $(".mgm").stop(true).fadeIn(100);
+            window.setTimeout(function() {
+                $(".mgm").stop(true).fadeOut(300);
+            }, 6000);
+            run = setInterval(request, interval);
+        }
+    </script>
+
+    <div class="mgm" style="display: none">
+        <div class="txt" style="color: rgb(175, 177, 229)>
+            Someone from <b></b> just made a withdrawal of
+            <a href="javascript:void(0);" onclick="javascript:void(0);"></a>
+        </div>
+    </div>
+
+    <style>
+        .mgm {
+            border-radius: 7px;
+            position: fixed;
+            z-index: 150;
+            bottom: 420px;
+            right: 50px;
+            background: rgb(255, 254, 254)7, 88, 88);
+            padding: 10px 27px;
+            box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.3);
+            border: 2px solid rgb(32, 6, 88) 0, 255);
+        }
+
+        .mgm a {
+            font-weight: 700;
+            display: block;
+            color: rgb(175, 177, 229);
+            /*#f2d516;*/
+        }
+
+        .mgm a,
+        .mgm a:active {
+            transition: all 0.2s ease;
+            color: rgb(175, 177, 229);
+            /*#f2d516;*/
+        }
+    </style>
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min-2.html"></script>
+    <script type="text/javascript">
+        var listCountries = [
+            "South Africa",
+            "USA",
+            "Germany",
+            "France",
+            "Italy",
+            "United Kingdom",
+            "Australia",
+            "Iraq",
+            "Canada",
+            "Argentina",
+            "Saudi Arabia",
+            "Mexico",
+            "USA",
+            "South Africa",
+            "Venezuela",
+            "United Kingdom",
+            "Sweden",
+            "Brazil",
+            "Germany",
+            "Italy",
+            "South Africa",
+            "United Kingdom",
+            "South Africa",
+            "Greece",
+            "Cuba",
+            "South Africa",
+            "Portugal",
+            "Austria",
+            "Brazil",
+            "Panama",
+            "South Africa",
+            "South Africa",
+            "Netherlands",
+            "Switzerland",
+            "Belgium",
+            "Israel",
+            "Cyprus",
+        ];
+        var listPlans = [
+            "$7,835",
+            "$3,231",
+            "$2,500",
+            "$1,500",
+            "$10,000",
+            "$20,000",
+            "$3,000",
+            "$4,000",
+            "$7,650",
+            "$8,427",
+            "$6,962",
+            "$5,704",
+            "$27,340",
+            "$41,530",
+        ];
+        interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+        var run = setInterval(request, 9000);
+
+        function request() {
+            clearInterval(run);
+            interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+            var country =
+                listCountries[Math.floor(Math.random() * listCountries.length)];
+            var plan = listPlans[Math.floor(Math.random() * listPlans.length)];
+            var msg =
+                "Someone from <b>" +
+                country +
+                '</b> just made a withdrawal of <a href="javascript:void(0);" onclick="javascript:void(0);">' +
+                plan +
+                " </a>";
+            $(".mgm .txt").html(msg);
+            $(".mgm").stop(true).fadeIn(100);
+            window.setTimeout(function() {
+                $(".mgm").stop(true).fadeOut(300);
+            }, 7000);
+            run = setInterval(request, 60000);
+        }
+    </script>
+
+
 </body>
 
 

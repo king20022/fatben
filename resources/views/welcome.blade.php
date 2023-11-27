@@ -13,8 +13,8 @@
                         <div class="col-sm-10 col-md-6 text-center text-md-start">
                             <div class="nk-block-text">
                                 <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">Find a higher
-                                    long-term profiting offer with Tenxcellence.</h2>
-                                <p class="lead animated" data-animate="fadeInUp" data-delay=".3">Tenxcellence will help
+                                    long-term profiting offer with 10xfinancial.</h2>
+                                <p class="lead animated" data-animate="fadeInUp" data-delay=".3">10xfinancial will help
                                     analyses by scoring all basic factors that affect's your investment such as
                                     valuation, growth, quality, sentiment, risks ad adjust each factor according to
                                     market situation to earn higher yields regarding your investment choice.</p>
@@ -41,8 +41,8 @@
                             <!-- Section Head @s -->
                             <div class="nk-block-text">
                                 <h4 class="title title-lg animated" data-animate="fadeInUp" data-delay=".2">What is
-                                    Tenxcellence?</h4>
-                                <p class="lead animated" data-animate="fadeInUp" data-delay=".3">Tenxcellence is the
+                                    10xfinancial?</h4>
+                                <p class="lead animated" data-animate="fadeInUp" data-delay=".3">10xfinancial is the
                                     World’s
                                     first AI investment platform offering real estates, Airbnb and yield farming
                                     opportunities. Our Artificial Intelligence (AI) analysis are up to 96% accurate as
@@ -50,7 +50,7 @@
                                     99.9% at-most.</p>
                                 <p class="animated" data-animate="fadeInUp" data-delay=".4">We tag it the Real world
                                     because we’ve built this system to fulfill investors long term desires/goals.
-                                    Tenxcellence
+                                    10xfinancial
                                     is here to give hope to different investment sectors, please do well to also read
                                     our FAQs.</p>
 
@@ -92,11 +92,11 @@
                                     <div class="stage-info animated" data-animate="fadeInUp" data-delay=".4">
                                         <img src="./assets/images/estate.jpg" alt="gfx">
                                         <h6 class="title title-s6 title-xs-s2">Real Estates:</h6>
-                                        <p>Tenxcellence has over 5 million premium real estate networks where distress
+                                        <p>10xfinancial has over 5 million premium real estate networks where distress
                                             sales
                                             are updated daily, example: An asset worth $1,100,000 can be sold at
                                             $300,000 to our brokers then our AI will analyze and list the cheapest
-                                            valuable assets for Tenxcellence investors to buy and earn potential
+                                            valuable assets for 10xfinancial investors to buy and earn potential
                                             $800,000
                                             profit. It differs, based on daily distress updates.</p>
                                     </div>
@@ -107,7 +107,7 @@
                                         <h6 class="title title-s6 title-xs-s2">Airbnb:</h6>
                                         <p>Our AI makes adequate research on short-term rental that has a steady queue
                                             of occupants because it’s more profitable than leasing the same property to
-                                            someone on a long-term basis. According to a recent analysis, Tenxcellence
+                                            someone on a long-term basis. According to a recent analysis, 10xfinancial
                                             Airbnb
                                             investors have an average monthly income of $4600 or more, depending on your
                                             investment size and rewards.</p>
@@ -166,7 +166,7 @@
                                     <div class="accordion accordion-s1 accordion-faq" id="faq-67">
                                         <div class="accordion-item accordion-item-s4 bg-light">
                                             <h5 class="accordion-title" data-bs-toggle="collapse"
-                                                data-bs-target="#faq-67-1"> What Currency Can I Fund My Tenxcellence
+                                                data-bs-target="#faq-67-1"> What Currency Can I Fund My 10xfinancial
                                                 Account
                                                 With? <span class="accordion-icon accordion-icon-s2"></span>
                                             </h5>
@@ -179,7 +179,7 @@
                                         </div>
                                         <div class="accordion-item accordion-item-s4 bg-light">
                                             <h5 class="accordion-title collapsed" data-bs-toggle="collapse"
-                                                data-bs-target="#faq-67-2"> Is Tenxcellence Guaranteed? <span
+                                                data-bs-target="#faq-67-2"> Is 10xfinancial Guaranteed? <span
                                                     class="accordion-icon accordion-icon-s2"></span>
                                             </h5>
                                             <div id="faq-67-2" class="collapse" data-bs-parent="#faq-67">
@@ -512,7 +512,7 @@
                                 <li class="animated" data-animate="fadeInUp" data-delay=".4">
                                     <em class="contact-icon fas fa-envelope"></em>
                                     <div class="contact-text">
-                                        <span>info@tenxcellence</span>
+                                        <span>info@10xfinancial</span>
                                     </div>
                                 </li>
                                 <li class="animated" data-animate="fadeInUp" data-delay=".5">
