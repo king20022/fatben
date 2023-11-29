@@ -29,7 +29,7 @@
                                         <div id="my-posts" class="tab-pane fade active show">
                                             <div class="pt-3">
                                                 <div class="settings-form">
-                                                    <h4 class="text-primary">Fill in your current details to aviod
+                                                    <h4 class="text-primary">Fill in your current details to avoid
                                                         financial lost !!</h4>
                                                     <form method="POST" action="{{ route('user.withdraws') }}">
                                                         @csrf
@@ -87,5 +87,14 @@
     <!--**********************************
                 Content body end
             ***********************************-->
+            <script>
+                @if(session('success'))
+                    toastr.success("{{ session('success') }}", 'Success');
+                @endif
+
+                @if(session('error'))
+                    toastr.error("{{ session('error') }}", 'Error');
+                @endif
+            </script>
 </x-app-layout>
 {{--  --}}

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from eres.dexignzone.com/xhtml/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Oct 2023 07:50:18 GMT -->
 
 <head>
 
@@ -32,6 +31,8 @@
     <link rel="/shortcut icon" type="image/x-icon" href="images/favicon.png">
     <link href="/vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+
 
     <!-- Style Css -->
     <link class="/main-css" href="/css/style.css" rel="stylesheet">
@@ -873,6 +874,8 @@
             }, 1000);
         });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
 
 </body>
 

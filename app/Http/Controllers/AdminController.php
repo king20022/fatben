@@ -9,6 +9,8 @@ use App\Models\Payment;
 use App\Models\User;
 use App\Models\Withdrawal;
 use Illuminate\Http\Request;
+use Toastr;
+
 
 class AdminController extends Controller
 {
@@ -158,7 +160,7 @@ class AdminController extends Controller
 
         // Create a new record in the database
         Investment::create([
-            
+
             'plan' => $request->input('plan'),
             'min' => $request->input('min'),
             'max' => $request->input('max'),

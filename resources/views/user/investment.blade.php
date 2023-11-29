@@ -14,10 +14,7 @@
                         </li>
                     </ol>
                 </div>
-                <div class="ms-auto mb-3">
-                    <a href="javascript:void();" class="btn btn-primary btn-rounded add-staff" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">Update Investment </a>
-                </div>
+
             </div>
             <div class="row">
                 @foreach ($investments as $investment)
@@ -56,5 +53,14 @@
     <!--**********************************
             Content body end
         ***********************************-->
+        <script>
+            @if(session('success'))
+                toastr.success("{{ session('success') }}", 'Success');
+            @endif
+
+            @if(session('error'))
+                toastr.error("{{ session('error') }}", 'Error');
+            @endif
+        </script>
 </x-app-layout>
 {{--  --}}

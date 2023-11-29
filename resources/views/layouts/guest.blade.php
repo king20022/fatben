@@ -6,17 +6,37 @@
     <meta charset="utf-8">
     <meta name="author" content="Softnio">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <!-- Fav Icon  -->
-    <link rel="shortcut icon" href="./assets/images/10x.jpg" width="50%">
-    <!-- Site Title  -->
-    <title> | World's First AI Investment Platform</title>
+    <meta name="description"
+        content="AI Allocation of Funds Platform - Streamlining Fund Allocation with Artificial Intelligence">
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="{{ asset('assets/images/10x.jpg') }}" type="image/x-icon">
+    <!-- Site Title -->
+    <title>AI Allocation of Funds Platform</title>
     <!-- Bundle and Base CSS -->
-    <link rel="stylesheet" href="./assets/css/vendor.bundlea166.css?ver=200">
-    <link rel="stylesheet" href="./assets/css/style-darka166.css?ver=200">
+    <link rel="stylesheet" href="{{ asset('assets/css/vendor.bundlea166.css?ver=200') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style-darka166.css?ver=200') }}">
     <!-- Extra CSS -->
-    <link rel="stylesheet" href="./assets/css/themea166.css?ver=200">
+    <link rel="stylesheet" href="{{ asset('assets/css/themea166.css?ver=200') }}">
+
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="AI Allocation, Funds Platform, Artificial Intelligence, Fund Allocation">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="AI Allocation of Funds Platform">
+    <meta property="og:description" content="Streamlining Fund Allocation with Artificial Intelligence">
+    <meta property="og:image" content="{{ asset('assets/images/10x.jpg') }}">
+    <meta property="og:url" content="{{ url('/') }}">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Allocation of Funds Platform">
+    <meta name="twitter:description" content="Streamlining Fund Allocation with Artificial Intelligence">
+    <meta name="twitter:image" content="{{ asset('assets/images/10x.jpg') }}">
 </head>
+
 
 <body class="nk-body body-wider theme-light mode-onepage">
     <div class="nk-wrap">
@@ -72,15 +92,18 @@
                                         <div class="banner-caption wide-auto text-center text-lg-start">
                                             <div class="cpn-head mt-0">
                                                 <h1 class="title title-xl-2 animated" data-animate="fadeInUp"
-                                                    data-delay="1.25">World's First AI Investment Platform, Offering
-                                                    99.9% Mind Blowing Long Term Financial Oppurtunities.</h1>
+                                                    data-delay="1.25">World's First AI Allocation of funds Platform,
+                                                    Offering
+                                                    99.9% Mind Blowing Long Term bankable Oppurtunities.</h1>
                                             </div>
                                             <div class="cpn-text cpn-text-s1">
-                                                <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">High
+                                                <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">
+                                                    High
                                                     Yields and Maximum Security</p>
                                             </div>
                                             <div class="cpn-btns">
-                                                <ul class="btn-grp animated" data-animate="fadeInUp" data-delay="1.45">
+                                                <ul class="btn-grp animated" data-animate="fadeInUp"
+                                                    data-delay="1.45">
                                                     <li><a href="{{ route('register') }}"
                                                             class="btn btn-md btn-grad btn-round">Register</a></li>
                                                     <li><a href="{{ route('login') }}"
@@ -93,7 +116,8 @@
                                     </div><!-- .col -->
                                     <div class="col-lg-5 col-sm-9">
                                         <div class="token-status token-status-s5 bg-transparent no-bd">
-                                            <div class="nk-circle-pk animated" data-animate="fadeIn" data-delay="1.75">
+                                            <div class="nk-circle-pk animated" data-animate="fadeIn"
+                                                data-delay="1.75">
                                                 <div class="line-1"></div>
                                                 <div class="line-2"></div>
                                                 <div class="line-3"></div>
@@ -107,7 +131,7 @@
                                             <div class="token-action animated" data-animate="fadeInUp"
                                                 data-delay="1.85">
                                                 <a class="btn btn-rg btn-grad btn-grad-alternet btn-round"
-                                                    href="#">Your Financial Emancipation Starts Here</a>
+                                                    href="#">Your bankable Emancipation Starts Here</a>
                                             </div>
 
                                         </div>
@@ -168,7 +192,7 @@
                                 <div class="wgs wgs-text text-center mb-3">
 
                                     <div class="copyright-text copyright-text-s3 pdt-m">
-                                        <p><span class="d-sm-block">Copyright &copy; 2022 10xfinancial.</span></p>
+                                        <p><span class="d-sm-block">Copyright &copy; 2022 10xFinancial.</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -187,9 +211,11 @@
     <script src="/assets/js/chartsa166.js?ver=200"></script>
     <script src="//code.tidio.co/hrlkhx7wwvyqle23tqvkzdu4bhtisjga.js" async></script>
     <div class="mgm " style="display: none">
-        <div class="txt" style="color:  rgb(175, 177, 229)>
+        <div class="txt"
+            style="color:  rgb(175, 177, 229)>
             Someone from <b></b> just traded with
-            <a href="javascript:void(0);" onclick="javascript:void(0);"></a>
+            <a href="javascript:void(0);"
+            onclick="javascript:void(0);"></a>
         </div>
     </div>
 
@@ -295,9 +321,11 @@
     </script>
 
     <div class="mgm" style="display: none">
-        <div class="txt" style="color: rgb(175, 177, 229)>
+        <div class="txt"
+            style="color: rgb(175, 177, 229)>
             Someone from <b></b> just made a withdrawal of
-            <a href="javascript:void(0);" onclick="javascript:void(0);"></a>
+            <a href="javascript:void(0);"
+            onclick="javascript:void(0);"></a>
         </div>
     </div>
 

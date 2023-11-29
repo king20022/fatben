@@ -7,6 +7,9 @@ use App\Models\Deposit;
 use App\Models\Investment;
 use App\Models\Payment;
 use Illuminate\Http\Request;
+use Toastr;
+use Illuminate\Support\Facades\DB;
+
 
 class UserController extends Controller
 {
@@ -23,7 +26,6 @@ class UserController extends Controller
         } else {
             return view('user.dashboard', ['user' => $user]);
         }
-
     }
 
     public function deposit()
@@ -61,7 +63,10 @@ class UserController extends Controller
         // Create a new deposit for the user
         $deposit = $user->deposits()->create($data);
 
-        return redirect()->route('user.deposit')->with('success', 'Deposit successfully.');
+        // Show Toastr notification
+        Toastr::success('Deposit Pending.', 'Success');
+
+        return redirect()->route('user.deposit');
     }
 
 
@@ -84,15 +89,27 @@ class UserController extends Controller
             'name' => 'required|string',
             'address' => 'required|string',
             'network' => 'required|string',
-
         ]);
 
+        // Check if the withdrawal amount is greater than the user's balance
+        if ($data['amount'] <= $user->balance) {
+            // Withdrawal is possible, process it
+            $withdrawal = $user->withdrawals()->create($data);
 
-        // Create a new withdrawal for the user
-        $withdrawals = $user->withdrawals()->create($data);
+            // Subtract the withdrawal amount from the user's balance
+            $user->balance -= $data['amount'];
+            $user->save();
 
-        return redirect()->route('user.withdraw')->with('success', 'Withdrawal successfully.');
+            // Show success notification for successful withdrawal
+            Toastr::success('Withdrawal successfully.', 'Success');
+        } else {
+            // Show error notification for insufficient balance
+            Toastr::error('Insufficient balance.', 'Error');
+        }
+
+        return redirect()->route('user.withdraw');
     }
+
 
     function investment()
     {
@@ -138,14 +155,27 @@ class UserController extends Controller
         if ($user && $user->role === 'user') {
             // Check if the user's balance is sufficient for the investment
             if ($user->balance >= $investment->min) {
-                // Perform the investment action here
-                // Deduct the investment amount from the user's balance
-                $user->balance -= $investment->min;
-                $user->save();
+                try {
+                    // Start a database transaction
+                    DB::beginTransaction();
 
-                // Add additional logic for tracking the investment, updating the database, etc.
+                    // Deduct the minimum of the investment amount from the user's balance
+                    $user->balance -= min($user->balance, $investment->min);
+                    $user->save();
 
-                return redirect()->back()->with('success', 'Investment successful.');
+                    // Perform additional logic for tracking the investment, updating the database, etc.
+
+                    // Commit the transaction if everything is successful
+                    DB::commit();
+
+                    return redirect()->back()->with('success', 'Investment successful.');
+                } catch (\Exception $e) {
+                    // Rollback the transaction if an exception occurs
+                    DB::rollBack();
+
+                    // Log the exception or handle it appropriately
+                    return redirect()->back()->with('error', 'An error occurred during the investment.');
+                }
             } else {
                 return redirect()->back()->with('error', 'Insufficient balance for investment.');
             }

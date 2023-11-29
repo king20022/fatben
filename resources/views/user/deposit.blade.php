@@ -129,5 +129,11 @@
             document.body.removeChild(tempInput);
         }
     </script>
+    <script>
+        @if(session('success'))
+            toastr.success('{{ session('success') }}', 'Success');
+        @endif
+    </script>
+
 </x-app-layout>
 {{--  --}}

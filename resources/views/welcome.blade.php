@@ -15,9 +15,9 @@
                                 <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">Find a higher
                                     long-term profiting offer with 10xfinancial.</h2>
                                 <p class="lead animated" data-animate="fadeInUp" data-delay=".3">10xfinancial will help
-                                    analyses by scoring all basic factors that affect's your investment such as
+                                    analyses by scoring all basic factors that affect's your Allocation of funds such as
                                     valuation, growth, quality, sentiment, risks ad adjust each factor according to
-                                    market situation to earn higher yields regarding your investment choice.</p>
+                                    market situation to earn higher yields regarding your Allocation of funds choice.</p>
 
                             </div>
                         </div>
@@ -44,14 +44,14 @@
                                     10xfinancial?</h4>
                                 <p class="lead animated" data-animate="fadeInUp" data-delay=".3">10xfinancial is the
                                     World’s
-                                    first AI investment platform offering real estates, Airbnb and yield farming
+                                    first AI Allocation of funds platform offering real estates, Airbnb and yield farming
                                     opportunities. Our Artificial Intelligence (AI) analysis are up to 96% accurate as
-                                    an investment powered AI joint with smart support of our experts we thrive to be
+                                    an Allocation of funds powered AI joint with smart support of our experts we thrive to be
                                     99.9% at-most.</p>
                                 <p class="animated" data-animate="fadeInUp" data-delay=".4">We tag it the Real world
                                     because we’ve built this system to fulfill investors long term desires/goals.
                                     10xfinancial
-                                    is here to give hope to different investment sectors, please do well to also read
+                                    is here to give hope to different Allocation of funds sectors, please do well to also read
                                     our FAQs.</p>
 
                             </div>
@@ -70,7 +70,7 @@
                     <h2 class="title title-s4 animated" data-animate="fadeInUp" data-delay=".1" title="OPPORTUNITIES">
                         OPPORTUNITIES</h2>
                     <p class="animated" data-animate="fadeInUp" data-delay=".2">Our Platform provides you with mind
-                        blowing investment opportunities which make’s us stand out amongst others.
+                        blowing Allocation of funds opportunities which make’s us stand out amongst others.
                         .</p>
                 </div>
                 <div class="nk-block nk-block-token mgb-m30">
@@ -82,7 +82,7 @@
                                         <img src="./assets/images/yield.jpg" alt="gfx">
                                         <h6 class="title title-s6 title-xs-s2">Yield farming:</h6>
                                         <p>Yield farming is a system where users can deposit cryptocurrency in a pool
-                                            with others to pursue investment gains, most typically through interest
+                                            with others to pursue Allocation of funds gains, most typically through interest
                                             earned by lending the pooled cryptocurrency to exchanges as liquidity,
                                             mining, futures trading etc. Yield farming is an optimistic strategy with
                                             potential high rewards. </p>
@@ -110,7 +110,7 @@
                                             someone on a long-term basis. According to a recent analysis, 10xfinancial
                                             Airbnb
                                             investors have an average monthly income of $4600 or more, depending on your
-                                            investment size and rewards.</p>
+                                            Allocation of funds size and rewards.</p>
                                     </div>
                                 </div><!-- .col  -->
                                 <!-- .col  -->
@@ -184,7 +184,7 @@
                                             </h5>
                                             <div id="faq-67-2" class="collapse" data-bs-parent="#faq-67">
                                                 <div class="accordion-content">
-                                                    <p>Yes, Your Investments Are Highly Guaranteed by the ISS, it's
+                                                    <p>Yes, Your Allocation of funds Are Highly Guaranteed by the ISS, it's
                                                         substantially lincensed and powered by AI to reduce risk</p>
                                                 </div>
                                             </div>
