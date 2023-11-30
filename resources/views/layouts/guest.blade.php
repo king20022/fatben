@@ -9,14 +9,14 @@
     <meta name="description"
         content="AI Allocation of Funds Platform - Streamlining Fund Allocation with Artificial Intelligence">
     <!-- Fav Icon -->
-    <link rel="shortcut icon" href="{{ asset('assets/images/10x.jpg') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('/assets/images/10x.jpg') }}" type="image/x-icon">
     <!-- Site Title -->
     <title>AI Allocation of Funds Platform</title>
     <!-- Bundle and Base CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/css/vendor.bundlea166.css?ver=200') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style-darka166.css?ver=200') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/css/vendor.bundlea166.css?ver=200') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/css/style-darka166.css?ver=200') }}">
     <!-- Extra CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/css/themea166.css?ver=200') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/css/themea166.css?ver=200') }}">
 
     <!-- SEO Meta Tags -->
     <meta name="keywords" content="AI Allocation, Funds Platform, Artificial Intelligence, Fund Allocation">
@@ -26,7 +26,7 @@
     <!-- Open Graph Meta Tags for Social Media -->
     <meta property="og:title" content="AI Allocation of Funds Platform">
     <meta property="og:description" content="Streamlining Fund Allocation with Artificial Intelligence">
-    <meta property="og:image" content="{{ asset('assets/images/10x.jpg') }}">
+    <meta property="og:image" content="{{ asset('/assets/images/10x.jpg') }}">
     <meta property="og:url" content="{{ url('/') }}">
     <meta property="og:type" content="website">
 
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AI Allocation of Funds Platform">
     <meta name="twitter:description" content="Streamlining Fund Allocation with Artificial Intelligence">
-    <meta name="twitter:image" content="{{ asset('assets/images/10x.jpg') }}">
+    <meta name="twitter:image" content="{{ asset('/assets/images/10x.jpg') }}">
 </head>
 
 

@@ -14,13 +14,13 @@
     <meta name="robots" content="">
 
     <meta name="keywords"
-        content="	admin dashboard, admin template, administration, analytics, bootstrap, disease, doctor, elegant, health, hospital admin, medical dashboard, modern, responsive admin dashboard">
+        content="	onsive admin dashboard">
     <meta name="description"
-        content="Our HTML Admin Dashboard is built with a responsive design, ensuring seamless compatibility across different devices and screen sizes. The user-friendly interface makes navigation intuitive and straightforward for administrators.">
+        content="">
 
-    <meta property="og:title" content="ERES - Hospital Admin Dashboard Bootstrap HTML Template">
+    <meta property="og:title" content="">
     <meta property="og:description"
-        content="Our HTML Admin Dashboard is built with a responsive design, ensuring seamless compatibility across different devices and screen sizes. The user-friendly interface makes navigation intuitive and straightforward for administrators.">
+        content="">
     <meta property="og:image" content="social-image.png">
     <meta name="format-detection" content="telephone=no">
 
